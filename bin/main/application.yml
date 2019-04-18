@@ -1,0 +1,12 @@
+server: 
+  port: 9090
+  error:
+    whitelabel:
+      enabled: false
+    path: start/error
+spring:
+   mvc:
+    view:
+      prefix: /WEB-INF/start/
+      suffix: .jsp
+            
